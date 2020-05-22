@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "extends": "eslint-config-ais/es6",
+    "rules": {
+      "strict": "off",
+      "no-console": "off",
+      "prefer-spread": "off",
+      "prefer-rest-params": "off",
+      "require-yield": "off",
+      "no-nested-ternary": "off",
+      "import/no-dynamic-require": "off",
+      "quotes": [
+        "error",
+        "double",
+        {
+          "avoidEscape": true,
+          "allowTemplateLiterals": true
+        }
+      ],
+      "semi": [
+        "error",
+        "never"
+      ]
+    }
+  }
